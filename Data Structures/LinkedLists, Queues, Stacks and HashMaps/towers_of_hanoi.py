@@ -1,4 +1,4 @@
-from stack import Stack
+from toh_stacks import Stack
 
 print("\nLet's play Towers of Hanoi!!")
 
