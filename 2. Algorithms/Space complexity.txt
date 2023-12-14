@@ -1,0 +1,27 @@
+Examples for intuition:
+
+ - "If in a a loop no new variables are created,
+    the space complexity is O(1). e.g.
+	def simple_loop(input_array):
+	  for i in simple_array:
+	    print(i)
+    	it has time complexity of O(n) but 
+	a space complexity of O(1)"
+
+ - "Like with time complexity, space complexity denotes space growth
+	in relation to the input size. It’s also important to note that
+	space complexity usually refers to any additional space that will be needed,
+	and doesn’t count the space of the input. So a function could have 10 arrays passed 	into it, but if all it does inside is print 'Hello World!', then it still takes O(1) 	space.
+
+  -  "A recusrive function that is passed the same array or  object in each call
+	doesn't add to the space complexity if the array or object is passed by reference
+	(which it is in Python)."
+
+  -  "Like time complexity, space complexity denotes space growth in relation to
+	the input size. It's also importanto to not that space complexity usually
+	refers to any additional space that will be needed, and doesn't count the space of the 	input. So a function could have 10 arrays passed into it, but  if all it does inside 	is print 'Hello World!', then it still takes O(1) space.
+
+
+example: 
+	def doublearray(input_array):
+	  # Returns an array that is

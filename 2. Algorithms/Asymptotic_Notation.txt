@@ -1,0 +1,50 @@
+- efficiency of programms is defined by its runtime
+
+- to account for the  runtime across different speeds of PC's and different programming languages there is a general way to define a program's runtime across these variable factors: the "Asymtpotic Notation"
+
+"Asymtpotic Notation"
+program's runtime as the amount of instructions the computer has to perform based on the  size of the program's input.
+Different way of describing asymptotic notation:
+- how many steps are perforemd realtive to the input
+
+- variaties of asymptotic notation: 
+	1. worst case scenario: "Things may get this bad, but they can't get worse
+
+
+WHAT DECISION DOES ASYMPTOTIC NOTATION HELP AS TO MAKE?
+
+=> how to take into consideration the runtime of different data structures and algorithms when creating programs.
+
+
+Subtypes of Big O Notation:
+
+1. Big Theta: Used if the runtime is the same in every case
+- Application: for runtime of one case:
+	- Given alist of Size N
+	a loop printing every element of that list
+	would be Theta(N) meaning tha the 
+	if the list increase, the runtime increases linearly 
+
+
+	- Given a number of Size N
+	deviding this number by 2 until we reach number one:
+	nr : iteraions
+	1	0
+	2	1
+	3	.
+	4	2
+	.	.
+	.	.
+	8	3
+	.	.
+	.	.
+	16	4'''
+	would be Theta(log2(N)) because for every 
+	if the the number increases by N, the the runtime increases by log2(N)
+	NOTE:
+	as the notation doesn't consider consttants we just write 
+	log2(N)
+
+2. Big Omega Notation: Used for the runtime of the best case
+
+3. Big O Notation: Used for runtime of the worst case 

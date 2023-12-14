@@ -1,0 +1,1 @@
+- lecture from ('https://web.mit.edu/16.070/www/lecture/big_o.pdf', retrieved on 2th of August 2023)
