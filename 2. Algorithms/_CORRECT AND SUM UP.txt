@@ -1,0 +1,6 @@
+SUm into one Notebook
+
+- Time and space complexities
+- Recursion vs Iteration (read artivle on countdown challenge fir this)
+- Sorting algortihms (extend( binary search, timsearch and pictore for quicksort)
+- Dynamic processing extend(problems of oin change, komments on knapsackproblem explaining index[weight - weights[index-1]], )

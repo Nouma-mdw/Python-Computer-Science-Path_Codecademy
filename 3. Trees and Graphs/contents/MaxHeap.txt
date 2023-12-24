@@ -1,0 +1,30 @@
+How are heap build?
+
+- Based on the numerical relations of their indexes
+- True or False: Are heaps often visualized as binary trees and implemented using a sequential data structure like an array?
+(Selected)Correct: True👏
+Correct! The tree representation is helpful to visualize the operations inherent to a heap, but more efficient implementations exist in practice.
+
+
+We use a list for storing internal elements, but we’re modeling it on a binary tree, where every “parent” element has up to two “child” elements.
+
+“child” and “parent” elements are determined by their relative indices within the internal list. By doing some arithmetic on an element’s index, we can determine the indices for parent and child elements (if they exist).
+
+Parent: index // 2
+Left Child: index * 2
+Right Child: (index * 2) + 1
+print(heap.heap_list)
+# Outputs: [None, 99, 22, 61, 10, 21, 13, 23]
+# Indices: [0, 1, 2, 3, 4, 5, 6, 7]
+
+heap.parent_idx(4)
+# (4 // 2) == 2
+# Element at index 4 is 10 
+# Element at index 2 is 22
+# The parent element of 10 is 22
+
+heap.left_child(3)
+# (3 * 2) == 6
+# Element at index 3 is 61
+# Element at index 6 is 13
+# The left child element of 61 is 13
